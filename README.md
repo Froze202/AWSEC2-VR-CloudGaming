@@ -13,7 +13,7 @@ Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-
 - Some money or AWS credits.
 - Your favorite desktop streaming software: [Parsec](https://parsec.app), [NICE-DCV](https://docs.aws.amazon.com/dcv/latest/adminguide/what-is-dcv.html), or [Desktop Vision](https://desktop.vision).
 - [Tailscale](https://tailscale.com) or [ZeroTier](https://www.zerotier.com) for network tunneling to reduce latency and improve responsiveness.
-- Virtual Desktop software for VR gaming.
+- [Virtual Desktop](https://vrdesktop.net) software for VR gaming.
 
 > In rare cases, you might receive a **Beta invitation** ([see image](https://ibb.co.com/Rjh5J67)) when signing up for the first time. This will grant you **$200 AWS Credits** at no cost. Activate a standard account if you receive this invitation.
 

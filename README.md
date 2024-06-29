@@ -1,2 +1,37 @@
-# AWSEC2-VR-CloudGaming
-A guide on how to set up a Amazon AWS EC2 instance for VR cloud gaming.
+# AWS EC2 Cloud/VR Gaming
+
+#### A guide to setting up an Amazon AWS EC2 G Instance for Cloud/VR Gaming
+
+Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-Demand instances cost double and are not recommended. There is also an instance available for approximately **$0.6 USD per hour** which I highly recommend. The reason is explained further down the page.
+
+##### Stay up-to-date with the Spot pricing: [g4dn.xlarge](https://instances.vantage.sh/aws/ec2/g4dn.xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront) | [g4dn.2xlarge](https://instances.vantage.sh/aws/ec2/g4dn.2xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront)
+
+> *Estimates by Vantage; prices may differ slightly from AWS.
+
+#### Prerequisites / Requirements:
+- An active AWS Account ([Register here](https://aws.amazon.com/free/)).
+- Some money or AWS credits.
+- Your favorite desktop streaming software: [Parsec](https://parsec.app), [NICE-DCV](https://docs.aws.amazon.com/dcv/latest/adminguide/what-is-dcv.html), or [Desktop Vision](https://desktop.vision).
+- [Tailscale](https://tailscale.com) or [ZeroTier](https://www.zerotier.com) for network tunneling to reduce latency and improve responsiveness.
+- Virtual Desktop software for VR gaming.
+
+> In rare cases, you might receive a **Beta invitation** ([see image](https://ibb.co.com/Rjh5J67)) when signing up for the first time. This will grant you **$200 AWS Credits** at no cost. Activate a standard account if you receive this invitation.
+
+#### !! REGION MATTERS !!
+##### Latency is crucial. Ensure you select the closest available region when logged into your AWS account.
+- Check your latency using this [tool](https://www.cloudping.cloud/aws). Ignore CloudFront CDN.
+- Change your region by clicking the current region at the top right ([see image](https://ibb.co.com/R4ZLpXf)), next to your AWS account name.
+
+#### AWS Service Quotas Requirements
+Requesting a Service Quota increase may take a few hours to 2-3 business days, or sometimes just a few minutes. If your request is declined, try again later or request a different quota.
+
+- *All G and VT Spot Instance Requests of 4.
+- **Running On-Demand G and VT instances of 4.
+
+> *I recommend requesting 8 vCPU quotas instead of 4 for a `g4dn.2xlarge` instance, which has 8 cores and 32 GB of RAM, compared to the `g4dn.xlarge` instance with only 4 cores and 16 GB of RAM, to avoid CPU bottlenecks due to its slow Intel Xeon cores @2.50GHz.
+>
+> **Only request this quota if you want to launch or test an instance immediately.
+
+This is unfinished. More content will be added later.
+
+Last updated: 30/06/2024

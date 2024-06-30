@@ -23,7 +23,7 @@ Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-
 - Change your region by clicking the current region at the top right ([see image](https://ibb.co.com/R4ZLpXf)), next to your AWS account name.
 
 #### AWS Service Quotas Requirements
-Requesting a Service Quota increase may take a few hours to 2-3 business days, or sometimes just a few minutes. If your request is declined, try again later or request a different quota.
+Requesting a Service Quota increase may take a few hours to 2-3 business days, or sometimes just a few minutes. If your request is declined, try again at a later day or request in another region that is closest to you.
 
 - *All G and VT Spot Instance Requests of 4.
 - **Running On-Demand G and VT instances of 4.

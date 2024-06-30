@@ -4,7 +4,7 @@
 
 Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-Demand instances cost double and are not recommended. There is also an instance available for approximately **$0.6 USD per hour** which I highly recommend. The reason is explained further down the page.
 
-##### Stay up-to-date with the Spot pricing: [g4dn.xlarge](https://instances.vantage.sh/aws/ec2/g4dn.xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront) | [g4dn.2xlarge](https://instances.vantage.sh/aws/ec2/g4dn.2xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront)
+#### Stay up-to-date with the Spot pricing: [g4dn.xlarge](https://instances.vantage.sh/aws/ec2/g4dn.xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront) | [g4dn.2xlarge](https://instances.vantage.sh/aws/ec2/g4dn.2xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront)
 
 > *Estimates by Vantage; prices may differ slightly from AWS.
 
@@ -17,8 +17,8 @@ Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-
 
 > In rare cases, you might receive a **Beta invitation** ([see image](https://ibb.co.com/Rjh5J67)) when signing up for the first time. This will grant you **$200 AWS Credits** at no cost. Activate a standard account if you receive this invitation.
 
-#### !! REGION MATTERS !!
-##### Latency is crucial. Ensure you select the closest available region when logged into your AWS account.
+### !! REGION MATTERS !!
+#### Latency is crucial. Ensure you select the closest available region when logged into your AWS account.
 - Check your latency using this [tool](https://www.cloudping.cloud/aws). Ignore CloudFront CDN.
 - Change your region by clicking the current region at the top right ([see image](https://ibb.co.com/R4ZLpXf)), next to your AWS account name.
 

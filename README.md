@@ -72,4 +72,4 @@ Once you have everything set up, do the following:
 
 This is unfinished. More content will be added later.
 
-Last updated: 30/06/2024
+Last updated: 07/02/2024 (Tuesday, July 2, 2024)

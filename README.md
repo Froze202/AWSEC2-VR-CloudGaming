@@ -1,6 +1,6 @@
 # AWS EC2 Cloud/VR Gaming
 
-#### A guide to setting up an Amazon AWS EC2 G Instance for Cloud/VR Gaming
+#### A guide to setting up an Amazon AWS EC2 G instance for Cloud/VR Gaming
 
 Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-Demand instances cost double and are not recommended. There is also an instance available for approximately **$0.6 USD per hour** which I highly recommend. The reason is explained further down the page.
 

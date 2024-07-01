@@ -9,7 +9,7 @@ Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-
 > Estimates by Vantage; prices may differ slightly from AWS.
 > Specifications are listed there or as following:
 - Intel Xeon Platinum 8259CL @2.50GHz (4 cores or 8 cores)
-- NVIDIA Tesla T4 with 12GB of VRAM
+- NVIDIA Tesla T4 with 12GB VRAM
 - 16GB or 32GB of RAM
 - 30GB of System storage (can be adjusted more)
 - 100GB or 200GB of NVMe temporary storage (mountable via Disk Manager)

@@ -5,15 +5,20 @@
 Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-Demand instances cost double and are not recommended. There is also an instance available for approximately **$0.7 USD per hour** which I highly recommend. The reason is explained further down the page.
 
 #### Stay up-to-date with the Spot pricing: [g4dn.xlarge](https://instances.vantage.sh/aws/ec2/g4dn.xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront) | [g4dn.2xlarge](https://instances.vantage.sh/aws/ec2/g4dn.2xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront)
-
 > Estimates by Vantage; prices may differ slightly from AWS.
-> Specifications are listed there or as following:
+
+#### Region prices (not-to-date)
+- N.Virginia at $0.3839 per hour / $0.6609 per hour
+- Ohio at $0.2366 per hour / $0.4432 per hour
+- Singapore at $0.2576 per hour / $0.4732 per hour
+> Any other regions can be seen via Vantage's estimates link above.
+
+#### Specifications as following:
 - Intel Xeon Platinum 8259CL @2.50GHz (4 cores or 8 cores)
 - NVIDIA Tesla T4 with 12GB VRAM (equivalent to RTX 2060?)
 - 16GB or 32GB of RAM
 - 30GB of System storage (can be adjusted more)
 - *100GB or 200GB of NVMe temporary storage (mountable via Disk Manager)
-
 > *NVMe temporary storage will most likely get wiped on system restart, don't store anything important there.
 
 ### Prerequisites / Requirements:
@@ -22,7 +27,6 @@ Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-
 - Your favorite desktop streaming software: [Parsec](https://parsec.app), [NICE-DCV](https://docs.aws.amazon.com/dcv/latest/adminguide/what-is-dcv.html), or [Desktop Vision](https://desktop.vision).
 - [Tailscale](https://tailscale.com) or [ZeroTier](https://www.zerotier.com) for network tunneling to reduce latency and improve responsiveness.
 - [Virtual Desktop](https://vrdesktop.net) software for VR gaming.
-
 > In rare cases, you might receive a **Beta invitation** ([see image](https://github.com/Froze202/AWSEC2-VR-CloudGaming/blob/main/images/beta-invitation.png?raw=true)) when signing up for the first time. This will grant you **$200 AWS Credits** at no cost. Activate a standard account if you receive this invitation.
 
 ### !! REGION MATTERS !!

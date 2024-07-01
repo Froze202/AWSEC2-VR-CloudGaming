@@ -6,7 +6,8 @@ Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-
 
 #### Stay up-to-date with the Spot pricing: [g4dn.xlarge](https://instances.vantage.sh/aws/ec2/g4dn.xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront) | [g4dn.2xlarge](https://instances.vantage.sh/aws/ec2/g4dn.2xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront)
 
-> *Estimates by Vantage; prices may differ slightly from AWS.
+> Estimates by Vantage; prices may differ slightly from AWS.
+> Specifications are listed there, or as is: Intel Xeon Platinum 8259CL @2.50GHz | NVIDIA Tesla T4 12GB VRAM | 16GB/32GB of RAM
 
 ### Prerequisites / Requirements:
 - An active AWS Account. ([Register here](https://aws.amazon.com/free/))

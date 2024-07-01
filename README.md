@@ -55,11 +55,11 @@ Once you have everything set up, do the following:
    - Search for AMI > Change `My AMIs` to `Amazon AMIs` > Search for `DCV-Windows`
    - Sort by Name > Choose the one with `NVIDIA-gaming` keyword with latest drivers.
    - `DCV-Windows-XXXX.X.XXXXX-NVIDIA-gaming-555.99-XXXX-XX-XXXXX-XX-XX.XXXX` for example.
-5a. *Additional launch parameters: EBS Volumes > Root:/dev/sda1 > Change Size from 30 to 60.
+6. *Additional launch parameters: EBS Volumes > Root:/dev/sda1 > Change Size from 30 to 60.
 
 > *This will be your System storage, adjust it to your liking. May cost more if bigger so be mindful.
 
-6. Key pairs configuration:
+7. Key pairs configuration:
    - Create a new key pair (opens a new tab) > `Create key pair` (top right)
    - Name your key pair > Key pair type: `RSA` > Private key file format: `PEM`
    - *Click on `Create key pair` and you should get a key pair file downloaded.
@@ -67,19 +67,19 @@ Once you have everything set up, do the following:
 
 > *Please store the key pair somewhere safe and don't lose it. It is needed for the Windows login credentials.
 
-7. Target capacity: Total target capacity = 1 instance
+8. Target capacity: Total target capacity = 1 instance
    - Checkbox `Maintain target capacity` > Set `Interruption behavior` from `Terminate` to `Stop`
    - Checkbox `Set maximum cost for Spot Instances`
    - Set your max cost (per hour) to the Spot pricing you see at the top of this page and add +0.1 to the total.
-8. Instance type requirements: `Manually select instance types`
+9. Instance type requirements: `Manually select instance types`
    - Checkbox all the instances and `Delete` them.
    - *Add instance types > Type in filter `g4dn.xlarge` or `g4dn.2xlarge` depending on your service quotas.
    - Checkbox the Instance type you wanted and click `Select`
 
 > *Requesting any other than those two will require additional service quotas and thus, the request will not be fulfilled.
 
-9. Allocation strategy: Capacity optimized
-10. Your fleet request at a glance > Double check everything and `Launch` when ready.
+10. Allocation strategy: Capacity optimized
+11. Your fleet request at a glance > Double check everything and `Launch` when ready.
     - Make sure `Estimated hourly price` is consistent with your max cost per hour.
 
 This is unfinished. More content will be added later.

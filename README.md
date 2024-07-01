@@ -2,7 +2,7 @@
 
 #### A guide to setting up an Amazon AWS EC2 G instance for Cloud/VR Gaming
 
-Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-Demand instances cost double and are not recommended. There is also an instance available for approximately **$0.6 USD per hour** which I highly recommend. The reason is explained further down the page.
+Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-Demand instances cost double and are not recommended. There is also an instance available for approximately **$0.7 USD per hour** which I highly recommend. The reason is explained further down the page.
 
 #### Stay up-to-date with the Spot pricing: [g4dn.xlarge](https://instances.vantage.sh/aws/ec2/g4dn.xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront) | [g4dn.2xlarge](https://instances.vantage.sh/aws/ec2/g4dn.2xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront)
 

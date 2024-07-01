@@ -4,11 +4,11 @@
 
 Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-Demand instances cost double and are not recommended. There is also an instance available for approximately **$0.6 USD per hour** which I highly recommend. The reason is explained further down the page.
 
-##### Stay up-to-date with the Spot pricing: [g4dn.xlarge](https://instances.vantage.sh/aws/ec2/g4dn.xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront) | [g4dn.2xlarge](https://instances.vantage.sh/aws/ec2/g4dn.2xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront)
+#### Stay up-to-date with the Spot pricing: [g4dn.xlarge](https://instances.vantage.sh/aws/ec2/g4dn.xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront) | [g4dn.2xlarge](https://instances.vantage.sh/aws/ec2/g4dn.2xlarge?region=us-east-1&os=mswin&cost_duration=hourly&reserved_term=Standard.noUpfront)
 
 > *Estimates by Vantage; prices may differ slightly from AWS.
 
-#### Prerequisites / Requirements:
+### Prerequisites / Requirements:
 - An active AWS Account. ([Register here](https://aws.amazon.com/free/))
 - Some money or AWS credits.
 - Your favorite desktop streaming software: [Parsec](https://parsec.app), [NICE-DCV](https://docs.aws.amazon.com/dcv/latest/adminguide/what-is-dcv.html), or [Desktop Vision](https://desktop.vision).
@@ -17,12 +17,12 @@ Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-
 
 > In rare cases, you might receive a **Beta invitation** ([see image](https://github.com/Froze202/AWSEC2-VR-CloudGaming/blob/main/images/beta-invitation.png?raw=true)) when signing up for the first time. This will grant you **$200 AWS Credits** at no cost. Activate a standard account if you receive this invitation.
 
-#### !! REGION MATTERS !!
-##### Latency is crucial. Ensure you select the closest available region when logged into your AWS account.
+### !! REGION MATTERS !!
+#### Latency is crucial. Ensure you select the closest available region when logged into your AWS account.
 - Check your latency using this [tool](https://www.cloudping.cloud/aws). Ignore CloudFront CDN.
 - Change your region by clicking the current region at the top right ([see image](https://github.com/Froze202/AWSEC2-VR-CloudGaming/blob/main/images/region-list.png?raw=true)), next to your AWS account name.
 
-#### AWS Service Quotas Requirements
+### AWS Service Quotas Requirements
 Requesting a Service Quota increase may take a few hours to 2-3 business days, or sometimes just a few minutes. If your request is declined, try again at a later day or request in another region that is closest to you.
 
 - *All G and VT Spot Instance Requests of 4.
@@ -32,7 +32,7 @@ Requesting a Service Quota increase may take a few hours to 2-3 business days, o
 >
 > **Only request this quota if you want to launch or test an instance immediately.
 
-#### Next steps ...
+### Next steps ...
 
 Once you have everything set up, do the following:
 

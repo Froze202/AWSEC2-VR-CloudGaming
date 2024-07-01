@@ -12,7 +12,9 @@ Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-
 - NVIDIA Tesla T4 with 12GB VRAM (equivalent to RTX 2060?)
 - 16GB or 32GB of RAM
 - 30GB of System storage (can be adjusted more)
-- 100GB or 200GB of NVMe temporary storage (mountable via Disk Manager)
+- *100GB or 200GB of NVMe temporary storage (mountable via Disk Manager)
+
+> *NVMe temporary storage will most likely get wiped on system restart, don't store anything important there.
 
 ### Prerequisites / Requirements:
 - An active AWS Account. ([Register here](https://aws.amazon.com/free/))
@@ -53,6 +55,10 @@ Once you have everything set up, do the following:
    - Search for AMI > Change `My AMIs` to `Amazon AMIs` > Search for `DCV-Windows`
    - Sort by Name > Choose the one with `NVIDIA-gaming` keyword with latest drivers.
    - `DCV-Windows-XXXX.X.XXXXX-NVIDIA-gaming-555.99-XXXX-XX-XXXXX-XX-XX.XXXX` for example.
+5a. *Additional launch parameters: EBS Volumes > Root:/dev/sda1 > Change Size from 30 to 60.
+
+> *This will be your System storage, adjust it to your liking. May cost more if bigger so be mindful.
+
 6. Key pairs configuration:
    - Create a new key pair (opens a new tab) > `Create key pair` (top right)
    - Name your key pair > Key pair type: `RSA` > Private key file format: `PEM`

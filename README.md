@@ -8,9 +8,9 @@ Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-
 > Estimates by Vantage; prices may differ slightly from AWS.
 
 #### Region prices (not-to-date)
-- N.Virginia at $0.3839 per hour / $0.6609 per hour
-- Ohio at $0.2366 per hour / $0.4432 per hour
-- Singapore at $0.2576 per hour / $0.4732 per hour
+- N.Virginia at $0.39 per hour / $0.67 per hour
+- Ohio at $0.24 per hour / $0.45 per hour
+- Singapore at $0.26 per hour / $0.48 per hour
 > Any other regions can be seen via Vantage's estimates link above.
 
 #### Specifications as following:

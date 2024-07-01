@@ -15,12 +15,12 @@ Using Spot Instances, this setup will cost you around **$0.4 USD per hour**. On-
 - [Tailscale](https://tailscale.com) or [ZeroTier](https://www.zerotier.com) for network tunneling to reduce latency and improve responsiveness.
 - [Virtual Desktop](https://vrdesktop.net) software for VR gaming.
 
-> In rare cases, you might receive a **Beta invitation** ([see image](https://ibb.co.com/Rjh5J67)) when signing up for the first time. This will grant you **$200 AWS Credits** at no cost. Activate a standard account if you receive this invitation.
+> In rare cases, you might receive a **Beta invitation** ([see image](https://github.com/Froze202/AWSEC2-VR-CloudGaming/blob/main/images/beta-invitation.png?raw=true)) when signing up for the first time. This will grant you **$200 AWS Credits** at no cost. Activate a standard account if you receive this invitation.
 
 #### !! REGION MATTERS !!
 ##### Latency is crucial. Ensure you select the closest available region when logged into your AWS account.
 - Check your latency using this [tool](https://www.cloudping.cloud/aws). Ignore CloudFront CDN.
-- Change your region by clicking the current region at the top right ([see image](https://ibb.co.com/R4ZLpXf)), next to your AWS account name.
+- Change your region by clicking the current region at the top right ([see image](https://github.com/Froze202/AWSEC2-VR-CloudGaming/blob/main/images/region-list.png?raw=true)), next to your AWS account name.
 
 #### AWS Service Quotas Requirements
 Requesting a Service Quota increase may take a few hours to 2-3 business days, or sometimes just a few minutes. If your request is declined, try again at a later day or request in another region that is closest to you.
